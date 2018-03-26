@@ -1,7 +1,6 @@
-#Drunk_player
+# Drunk_player
 
-Description
-===========
+## Description
 
 Drunk_player est un système de lecture de vidéos qui a trop bu.
 Il lit les vidéos contenues dans un dossier par morceaux,
@@ -15,3 +14,18 @@ Drunk_player utilise la bibliothèque de traitement d'image
 l'écran
 * d'un programme console (drunk_player_cli) qui sort le résultat dans
 un fichier
+
+## Dépendances
+* OpenCV
+* Boost
+
+## Compilation
+
+```
+mkdir build
+cd build
+cmake ..
+make
+```
+
+## Utilisation
